@@ -10,6 +10,10 @@
     
 }
 
+#painel *{
+    text-align: end;
+}
+
 #interface {
     display: block;
     width: 100vw;
@@ -32,16 +36,34 @@
 }
 
 #interface table {
-    margin: 0 auto 
-  
+    margin: 0 auto;
+    padding: .5rem;
+    border-radius: .25rem;
+  box-shadow: 0 0 2px rgba(0, 0,0, .8);
+  background-color: #ddd;
 
 }
 
+#interface table #painel {
+    display: block;
+
+}
+
+#interface table #painel #txt_operadores{
+    display: block;
+}
+
+#interface table
+#painel #txt_display:focus-visible{
+    outline: none;
+    background-color: transparent;
+}
+
 #interface table button {
- display: block;
- width: 50px;
- height: 50px;
- font-size: 1.2rem;
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
  
 }
 
