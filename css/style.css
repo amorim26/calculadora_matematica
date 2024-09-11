@@ -10,21 +10,19 @@
     
 }
 
-#painel *{
-    text-align: end;
-}
-
 #interface {
     display: block;
     width: 100vw;
     height: 100vh;
     padding: 2rem;
     background-color: #fafafa;
+    overflow: hidden;
 }
+
 #interface .cabecalho {
     display: block;
     width: 70%;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 2rem auto; /* top, right, bottom, left */
  
 }
 
@@ -35,28 +33,43 @@
     font-size: 1.5rem;
 }
 
+#interface main {
+    display: block;
+}
+
 #interface table {
     margin: 0 auto;
     padding: .5rem;
     border-radius: .25rem;
-  box-shadow: 0 0 2px rgba(0, 0,0, .8);
-  background-color: #ddd;
-
+    box-shadow: 0 0 2px rgba(0, 0,0, .8);
+    background-color: #ddd;
+    padding: .5rem;
+    box-shadow: 0 0 2px rgba(0, 0,0, .8);
 }
 
 #interface table #painel {
     display: block;
-
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #333;
+    border-radius: .25rem;
 }
 
 #interface table #painel #txt_operadores{
     display: block;
+    color: #fafafa;
+    text-align: right;
 }
 
 #interface table
 #painel #txt_display:focus-visible{
-    outline: none;
+    display: block;
+    width: 100%;
     background-color: transparent;
+    border: 0;
+    outline: none;
+    color: #fafafa;
+    text-align: right;
 }
 
 #interface table button {
@@ -76,4 +89,13 @@
 #interface table #bt-plus,
 #interface table #bt-equal {
     height: 102px;
+}
+
+#interface #painel {
+    text-align: right;
+    background-color: #c0c0c0;
+    display: block;
+    width: 100%;
+    
+
 }

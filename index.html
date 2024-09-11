@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora Matematica</title>
 
-    <link rel="stylesheet" href="tools/fontawesome/css/all.css">
+    <link rel="stylesheet" href="tools/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/style.css" />
 
     <script src="tools/jquery/jquery.min.js"></script>
@@ -25,7 +25,7 @@
                     <td colspan="5">
                         <div id="painel">
                             <p id="txt_operadores">5 +</p>
-                            <input type="text" id="txt_display" placeholder="0">
+                            <input type="text" id="txt_display" placeholder="0" />
                         </div>
                     </td>
                 </tr>
@@ -42,26 +42,24 @@
                         <td><button class="bt-calc">7</button></td>
                         <td><button class="bt-calc">8</button></td>
                         <td><button class="bt-calc">9</button></td>
-                        <td><button class="bt-calc">X</button></td>
-                        <td><button class="bt-calc">/</button></td>
+                        <td><button class="bt-calc"><i class="fa-solid fa-xmark"></i></button></td>
+                        <td><button class="bt-calc"><i class="fa-solid fa-plus"></i></button></td>
                 </tr>
 
                    <tr>
                         <td><button class="bt-calc">4</button></td>
                         <td><button class="bt-calc">5</button></td>
                         <td><button class="bt-calc">6</button></td>
-                        <td><button class="bt-calc">-</button></td>
-                        <td><button class="bt-calc">%</button></td>
+                        <td><button class="bt-calc"><i class="fa-solid fa-minus"></i></button></td>
+                        <td><button class="bt-calc"><i class="fa-solid fa-percent"></i></button></td>
                    </tr>
 
                    <tr>
                         <td><button class="bt-calc">1</button></td>
                         <td><button class="bt-calc">2</button></td>
                         <td><button class="bt-calc">3</button></td>
-                        <td rowspan="2"><button class="bt-calc"
-                            id="bt-plus">+</button></td>
-                        <td rowspan="2"><button class="bt-calc" 
-                            id="bt-equal">=</button></td>
+                        <td rowspan="2"><button class="bt-calc" id="bt-plus"><i class="fa-solid fa-plus"></i></button></td>
+                        <td rowspan="2"><button class="bt-calc" id="bt-equal"><i class="fa-solid fa-equals"></i></button></td>
                    </tr>
 
                    <tr>
