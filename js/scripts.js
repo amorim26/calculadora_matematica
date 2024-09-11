@@ -7,4 +7,5 @@ $(document).ready(function() {
 
         $('#txt_display').text(nr_c)
     })
+
 });
